@@ -9,7 +9,7 @@ export const DATA = Array(20).fill(null).map(e => ({
     about: faker.lorem.paragraph(),
     followers: faker.number.int() % 500,
     follows: faker.number.int() % 500,
-    post: Array(9).fill(null).map((e) => ({
+    post: Array(8).fill(null).map((e) => ({
         id: faker.string.uuid(),
         image: faker.image.urlPicsumPhotos(),
     }))
